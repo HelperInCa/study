@@ -1,0 +1,18 @@
+{
+  "name": "db-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Brett Ritter <swiftone@swiftone.org>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "loki": "^0.14.2",
+    "lokijs": "^1.5.6",
+    "nodemon": "^1.18.10"
+  }
+}

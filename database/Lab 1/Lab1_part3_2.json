@@ -1,0 +1,19 @@
+{
+    "_id": {
+        "$oid": "5ba85948fb6fc011c006e30f"
+    },
+    "TerritoryID": "6",
+    "Name": "Canada",
+    "Salespeoples": [
+        {
+            "BusinessEntityID": "278",
+            "LastName": "Vargas",
+            "FirstName": "Garrett"
+        },
+        {
+            "BusinessEntityID": "282",
+            "LastName": "Saraiva",
+            "FirstName": "Jose"
+        }
+    ]
+}

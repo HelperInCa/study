@@ -1,0 +1,10 @@
+package qingHu;
+
+public class Array02 {
+	public static void main(String[] args) {
+		int[] scores1 = new int[10];
+		int[][] scores2;
+		//二维数组初始化
+		scores2 = new int[][] {{1,2},{3,3},{3}};
+	}
+}
