@@ -1,6 +1,7 @@
 /fullstack
 /Database/sample
 /data\ science/HW
+*.csv
 
 # jupyter
 MANIFEST
