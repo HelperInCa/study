@@ -1,1 +1,1 @@
-Courses I have learned recently
+Courses I have learned recently both in the school and online
