@@ -176,9 +176,12 @@
 
 # L10
 
-<font size="2">Math in DL</font>L
+<font size="6">Math in DL</font>
 
+- different paras = diff dimesions
+- 
 
+# L11
 
 
 

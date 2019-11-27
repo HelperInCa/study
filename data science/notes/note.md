@@ -3,6 +3,7 @@
 ## Course:
 
 - [Andrew Ng: Machine Learning](https://www.coursera.org/learn/machine-learning/home/welcome)
+- 3 must-have tools: [Pandas profiling][https://github.com/pandas-profiling/pandas-profiling]
 
 # Jupyter notebook
 
