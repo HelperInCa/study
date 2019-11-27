@@ -3,7 +3,7 @@
 ## Course:
 
 - [Andrew Ng: Machine Learning](https://www.coursera.org/learn/machine-learning/home/welcome)
-- 3 must-have tools: [Pandas profiling][https://github.com/pandas-profiling/pandas-profiling]
+- 3 must-have tools ([intro](https://fizzylogic.nl/2018/08/21/5-must-have-tools-if-youre-serious-about-machine-learning/)): [Pandas profiling](https://github.com/pandas-profiling/pandas-profiling), [FeatureTools](https://www.featuretools.com/), [LIME(Local Interpretable Model Explainer)](https://github.com/marcotcr/lime)
 
 # Jupyter notebook
 

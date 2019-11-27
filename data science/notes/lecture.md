@@ -176,12 +176,14 @@
 
 # L10
 
-<font size="6">Math in DL</font>
+<font size="6">Linear algebra in DL</font>
 
-- different paras = diff dimesions
-- 
+- 1 matrix = 1 layer
+- different features = diff dimesions
 
 # L11
+
+<font size="6">The activations, loss functions, and SGD of neural networks</font>
 
 
 
