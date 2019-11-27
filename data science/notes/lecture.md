@@ -1,4 +1,4 @@
-#L 2
+# L 2
 
 - avoid **logical fallacy**(the Texas sharpshooter fallacy): shoot first, then draw target
 
@@ -119,7 +119,7 @@
 
 
 
-# L9
+# L8
 
 - neural networks, shallow and deep
 
@@ -168,5 +168,17 @@
 
 
 
+# L9
+
+- See code in module 9
+
+
+
 # L10
+
+<font size="2">Math in DL</font>L
+
+
+
+
 
