@@ -205,3 +205,7 @@
 
   
 
+- SGD(some in [this](https://medium.com/@RosieCampbell/demystifying-deep-neural-nets-efb726eae941))
+
+  ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9djk8fe34j31400u0tcz.jpg)
+
