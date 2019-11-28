@@ -183,7 +183,25 @@
 
 # L11
 
-<font size="6">The activations, loss functions, and SGD of neural networks</font>
+<font size="6">The activations | loss functions | SGD of neural networks</font>
 
 
+
+- [Activation functions](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
+
+  - Sigmoid & tanh
+
+    ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9dgxt6aqlj31a70u0ju3.jpg)
+
+  - **ReLU** 
+
+    ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9dgzbhtx9j31bw0hq0uh.jpg)
+
+
+
+- [Loss function for DNN: Binary cross entropy](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
+
+  ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9dizjtxgqj316s0u0afk.jpg)
+
+  
 
