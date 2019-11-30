@@ -170,9 +170,7 @@
 
 # L9
 
-- See code in module 9
-
-
+[Code](https://github.com/HelperInCa/study/blob/master/data%20science/module9/DNN%20for%20Classification.ipynb)
 
 # L10
 
@@ -205,7 +203,31 @@
 
   
 
-- SGD(some in [this](https://medium.com/@RosieCampbell/demystifying-deep-neural-nets-efb726eae941))
+- SGD(the 2nd pic in [this](https://medium.com/@RosieCampbell/demystifying-deep-neural-nets-efb726eae941))
 
   ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9djk8fe34j31400u0tcz.jpg)
+
+
+
+# L12
+
+<font size="6">CNN theory code</font>
+
+[Paper: Deep Spreadsheets with ExcelNet](https://github.com/HelperInCa/study/blob/master/data science/module12/deepexcelnet.pdf)
+
+[Notebook.xlsx((MNIST))](https://github.com/HelperInCa/study/blob/master/data science/module12/CNN_notebook.xlsx)
+
+- **convolution**: **shrink** the size and **amplify** the signal. so don't conv too many times, or it will be nothing
+
+- **dropout**: avoid overfitting, 0.0 - 0.9
+
+- maxpool
+
+- dense weights
+
+- dense activation
+
+  
+
+[Code (cat or dog)](https://github.com/HelperInCa/study/blob/master/data%20science/module12/CNN%20code.ipynb)
 
