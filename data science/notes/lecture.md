@@ -231,3 +231,7 @@
 
 [Code (cat or dog)](https://github.com/HelperInCa/study/blob/master/data%20science/module12/CNN%20code.ipynb)
 
+
+
+# L13
+
