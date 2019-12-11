@@ -259,7 +259,10 @@
   
 - SGD
 
-- 
+  
 
   ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9r6jyjvz0j31as07074o.jpg)
+
+  > - batch_size: Size of Training Set
+  > - epoch: Times that the learning algorithm will work through the entire training dataset
 
