@@ -2,6 +2,7 @@
 /Database/sample
 /data\ science/HW
 *.csv
+/private/
 
 # jupyter
 MANIFEST
