@@ -1,3 +1,5 @@
+
+
 # L 2
 
 - avoid **logical fallacy**(the Texas sharpshooter fallacy): shoot first, then draw target
@@ -235,5 +237,29 @@
 
 # L13
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9r6jyjvz0j31as07074o.jpg)
+- Q&A
+
+  - data scientist vs. software engineer
+
+    - data scientist: want to see more difference when change something
+    - software engineer: function, product
+
+  - what can you do next?
+  - course
+    - practice: kaggle(learn from other kernels)
+  - data science tracks
+    - generalist
+    - nlp
+    - computer vision
+  - data engineer
+    - cloud(certificate: aws, gcp, azure
+    - sql
+    - mapreduce
+    - hadoop
+  
+- SGD
+
+- 
+
+  ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9r6jyjvz0j31as07074o.jpg)
 

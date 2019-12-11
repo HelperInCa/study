@@ -17,7 +17,6 @@ class _AuthPageState extends State<AuthPage> with TickerProviderStateMixin {
   final Map<String, dynamic> _formData = {
     'email': null,
     'password': null,
-    'acceptTerms': false
   };
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final TextEditingController _passwordTextController = TextEditingController();
@@ -35,15 +34,6 @@ class _AuthPageState extends State<AuthPage> with TickerProviderStateMixin {
       CurvedAnimation(parent: _controller, curve: Curves.fastOutSlowIn),
     );
     super.initState();
-  }
-
-  DecorationImage _buildBackgroundImage() {
-    return DecorationImage(
-      fit: BoxFit.cover,
-      colorFilter:
-          ColorFilter.mode(Colors.black.withOpacity(0.5), BlendMode.dstATop),
-      image: AssetImage('assets/background.jpg'),
-    );
   }
 
   Widget _buildEmailTextField() {
@@ -103,20 +93,9 @@ class _AuthPageState extends State<AuthPage> with TickerProviderStateMixin {
     );
   }
 
-  Widget _buildAcceptSwitch() {
-    return SwitchListTile(
-      value: _formData['acceptTerms'],
-      onChanged: (bool value) {
-        setState(() {
-          _formData['acceptTerms'] = value;
-        });
-      },
-      title: Text('Accept Terms'),
-    );
-  }
 
   void _submitForm(Function authenticate) async {
-    if (!_formKey.currentState.validate() || !_formData['acceptTerms']) {
+    if (!_formKey.currentState.validate() ) {
       return;
     }
     _formKey.currentState.save();
@@ -155,9 +134,6 @@ class _AuthPageState extends State<AuthPage> with TickerProviderStateMixin {
         title: Text('Login'),
       ),
       body: Container(
-        decoration: BoxDecoration(
-          image: _buildBackgroundImage(),
-        ),
         padding: EdgeInsets.all(10.0),
         child: Center(
           child: SingleChildScrollView(
@@ -176,7 +152,6 @@ class _AuthPageState extends State<AuthPage> with TickerProviderStateMixin {
                       height: 10.0,
                     ),
                     _buildPasswordConfirmTextField(),
-                    _buildAcceptSwitch(),
                     SizedBox(
                       height: 10.0,
                     ),

@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:scoped_model/scoped_model.dart';
-// import 'package:flutter/rendering.dart';
 
 import './pages/auth.dart';
 import './pages/products_admin.dart';
@@ -64,7 +63,7 @@ class _MyAppState extends State<MyApp> {
     return ScopedModel<MainModel>(
       model: _model,
       child: MaterialApp(
-        title: 'EasyList',
+        title: 'Products List',
         // debugShowMaterialGrid: true,
         theme: getAdaptiveThemeData(context),
         // home: AuthPage(),

@@ -35,8 +35,8 @@ class _ProductsPageState extends State<ProductsPage> {
                 Theme.of(context).platform == TargetPlatform.iOS ? 0.0 : 4.0,
           ),
           ListTile(
-            leading: Icon(Icons.edit),
-            title: Text('Manage Products'),
+            leading: Icon(Icons.add),
+            title: Text('Post New Products'),
             onTap: () {
               Navigator.pushReplacementNamed(context, '/admin');
             },
@@ -70,15 +70,19 @@ class _ProductsPageState extends State<ProductsPage> {
     return Scaffold(
       drawer: _buildSideDrawer(context),
       appBar: AppBar(
-        title: Text('EasyList'),
+        title: Text('HyperGarageSale'),
         elevation: Theme.of(context).platform == TargetPlatform.iOS ? 0.0 : 4.0,
         actions: <Widget>[
           ScopedModelDescendant<MainModel>(
             builder: (BuildContext context, Widget child, MainModel model) {
-              return IconButton(
+              return RaisedButton.icon(
+                textColor: Colors.white,
+                color: Colors.blue,
                 icon: Icon(model.displayFavoritesOnly
                     ? Icons.favorite
                     : Icons.favorite_border),
+                label: Text('Wish List'),
+                clipBehavior: Clip.antiAlias,
                 onPressed: () {
                   model.toggleDisplayMode();
                 },
@@ -88,6 +92,13 @@ class _ProductsPageState extends State<ProductsPage> {
         ],
       ),
       body: _buildProductsList(),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.blue,
+        child: Icon(Icons.add),
+        onPressed: () {
+          Navigator.pushReplacementNamed(context, '/admin');
+        },
+      ),
     );
   }
 }

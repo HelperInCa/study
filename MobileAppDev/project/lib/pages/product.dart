@@ -14,13 +14,6 @@ class ProductPage extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        Container(
-          margin: EdgeInsets.symmetric(horizontal: 5.0),
-          child: Text(
-            '|',
-            style: TextStyle(color: Colors.grey),
-          ),
-        ),
         Text(
           '\$' + price.toString(),
           style: TextStyle(fontFamily: 'Oswald', color: Colors.grey),
@@ -33,7 +26,6 @@ class ProductPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () {
-        print('Back button pressed!');
         Navigator.pop(context, false);
         return Future.value(false);
       },

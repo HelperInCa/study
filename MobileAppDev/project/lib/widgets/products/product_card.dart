@@ -34,15 +34,15 @@ class ProductCard extends StatelessWidget {
     );
   }
 
-  Widget _buildActionButtons(BuildContext context) {
+Widget _buildActionButtons(BuildContext context) {
     return ScopedModelDescendant<MainModel>(
       builder: (BuildContext context, Widget child, MainModel model) {
         return ButtonBar(
             alignment: MainAxisAlignment.center,
             children: <Widget>[
-              IconButton(
-                icon: Icon(Icons.info),
-                color: Theme.of(context).accentColor,
+              RaisedButton(
+                color: Colors.blueAccent,
+                child: Text('Details'),
                 onPressed: () {
                   model.selectProduct(product.id);
                   Navigator
@@ -74,7 +74,8 @@ class ProductCard extends StatelessWidget {
             tag: product.id,
             child: FadeInImage(
               image: NetworkImage(product.image),
-              height: 300.0,
+              height: 150.0,
+              width: 200.0,
               fit: BoxFit.cover,
               placeholder: AssetImage('assets/food.jpg'),
             ),

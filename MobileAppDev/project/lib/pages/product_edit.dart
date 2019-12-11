@@ -11,7 +11,6 @@ import '../widgets/ui_elements/adapative_progress_indicator.dart';
 import '../models/product.dart';
 import '../scoped-models/main.dart';
 
-
 class ProductEditPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -56,8 +55,8 @@ class _ProductEditPageState extends State<ProductEditPage> {
         // initialValue: product == null ? '' : product.title,
         validator: (String value) {
           // if (value.trim().length <= 0) {
-          if (value.isEmpty || value.length < 5) {
-            return 'Title is required and should be 5+ characters long.';
+          if (value.isEmpty || value.length < 1) {
+            return 'Title is required and should be 1+ characters long.';
           }
         },
         onSaved: (String value) {
@@ -84,8 +83,8 @@ class _ProductEditPageState extends State<ProductEditPage> {
         controller: _descriptionTextController,
         validator: (String value) {
           // if (value.trim().length <= 0) {
-          if (value.isEmpty || value.length < 10) {
-            return 'Description is required and should be 10+ characters long.';
+          if (value.isEmpty || value.length < 1) {
+            return 'Description is required and should be 1+ characters long.';
           }
         },
         onSaved: (String value) {
@@ -128,13 +127,14 @@ class _ProductEditPageState extends State<ProductEditPage> {
                 child: AdaptiveProgressIndicator(),
               )
             : RaisedButton(
-                child: Text('Save'),
+                child: Text('Post'),
                 textColor: Colors.white,
-                onPressed: () => _submitForm(
-                    model.addProduct,
-                    model.updateProduct,
-                    model.selectProduct,
-                    model.selectedProductIndex),
+                onPressed: () {
+                  _submitForm(model.addProduct, model.updateProduct,
+                      model.selectProduct, model.selectedProductIndex);
+                  final snackBar = SnackBar(content: Text('The product is waiting for the update'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
               );
       },
     );
@@ -167,14 +167,6 @@ class _ProductEditPageState extends State<ProductEditPage> {
                 height: 10.0,
               ),
               _buildSubmitButton(),
-              // GestureDetector(
-              //   onTap: _submitForm,
-              //   child: Container(
-              //     color: Colors.green,
-              //     padding: EdgeInsets.all(5.0),
-              //     child: Text('My Button'),
-              //   ),
-              // )
             ],
           ),
         ),
@@ -196,16 +188,15 @@ class _ProductEditPageState extends State<ProductEditPage> {
     _formKey.currentState.save();
     if (selectedProductIndex == -1) {
       addProduct(
-          _titleTextController.text,
-          _descriptionTextController.text,
-          _formData['image'],
-          double
-              .parse(_priceTextController.text.replaceFirst(RegExp(r','), '.')),
-          ).then((bool success) {
+        _titleTextController.text,
+        _descriptionTextController.text,
+        _formData['image'],
+        double.parse(_priceTextController.text.replaceFirst(RegExp(r','), '.')),
+      ).then((bool success) {
         if (success) {
-          Navigator
-              .pushReplacementNamed(context, '/products')
-              .then((_) => setSelectedProduct(null));
+          Navigator.pushReplacementNamed(context, '/products').then((_) {
+            setSelectedProduct(null);
+          });
         } else {
           showDialog(
               context: context,
@@ -229,8 +220,7 @@ class _ProductEditPageState extends State<ProductEditPage> {
         _descriptionTextController.text,
         _formData['image'],
         double.parse(_priceTextController.text.replaceFirst(RegExp(r','), '.')),
-      ).then((_) => Navigator
-          .pushReplacementNamed(context, '/products')
+      ).then((_) => Navigator.pushReplacementNamed(context, '/products')
           .then((_) => setSelectedProduct(null)));
     }
   }
@@ -246,8 +236,9 @@ class _ProductEditPageState extends State<ProductEditPage> {
             : Scaffold(
                 appBar: AppBar(
                   title: Text('Edit Product'),
-                  elevation:
-              Theme.of(context).platform == TargetPlatform.iOS ? 0.0 : 4.0,
+                  elevation: Theme.of(context).platform == TargetPlatform.iOS
+                      ? 0.0
+                      : 4.0,
                 ),
                 body: pageContent,
               );

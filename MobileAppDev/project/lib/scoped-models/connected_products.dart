@@ -65,7 +65,7 @@ mixin ProductsModel on ConnectedProductsModel {
     final imageUploadRequest = http.MultipartRequest(
         'POST',
         Uri.parse(
-            'https://us-central1-yang-zhang-project.cloudfunctions.net/storeImage'));
+            'https://us-central1-neu-winter2019.cloudfunctions.net/storeImage'));
     final file = await http.MultipartFile.fromPath(
       'image',
       image.path,
@@ -119,7 +119,7 @@ mixin ProductsModel on ConnectedProductsModel {
     };
     try {
       final http.Response response = await http.post(
-          'https://yang-zhang-project.firebaseio.com/products.json?auth=${_authenticatedUser.token}',
+          'https://neu-winter2019.firebaseio.com/products.json?auth=${_authenticatedUser.token}',
           body: json.encode(productData));
 
       if (response.statusCode != 200 && response.statusCode != 201) {
@@ -181,7 +181,7 @@ mixin ProductsModel on ConnectedProductsModel {
     };
     try {
       await http.put(
-          'https://yang-zhang-project.firebaseio.com/products/${selectedProduct.id}.json?auth=${_authenticatedUser.token}',
+          'https://neu-winter2019.firebaseio.com/products/${selectedProduct.id}.json?auth=${_authenticatedUser.token}',
           body: json.encode(updateData));
       _isLoading = false;
       final Product updatedProduct = Product(
@@ -211,7 +211,7 @@ mixin ProductsModel on ConnectedProductsModel {
     notifyListeners();
     return http
         .delete(
-            'https://yang-zhang-project.firebaseio.com/products/$deletedProductId.json?auth=${_authenticatedUser.token}')
+            'https://neu-winter2019.firebaseio.com/products/$deletedProductId.json?auth=${_authenticatedUser.token}')
         .then((http.Response response) {
       _isLoading = false;
       notifyListeners();
@@ -232,7 +232,7 @@ mixin ProductsModel on ConnectedProductsModel {
     notifyListeners();
     return http
         .get(
-            'https://yang-zhang-project.firebaseio.com/products.json?auth=${_authenticatedUser.token}')
+            'https://neu-winter2019.firebaseio.com/products.json?auth=${_authenticatedUser.token}')
         .then<Null>((http.Response response) {
       final List<Product> fetchedProductList = [];
       final Map<String, dynamic> productListData = json.decode(response.body);
@@ -290,11 +290,11 @@ mixin ProductsModel on ConnectedProductsModel {
     http.Response response;
     if (newFavoriteStatus) {
       response = await http.put(
-          'https://yang-zhang-project.firebaseio.com/products/${selectedProduct.id}/wishlistUsers/${_authenticatedUser.id}.json?auth=${_authenticatedUser.token}',
+          'https://neu-winter2019.firebaseio.com/products/${selectedProduct.id}/wishlistUsers/${_authenticatedUser.id}.json?auth=${_authenticatedUser.token}',
           body: json.encode(true));
     } else {
       response = await http.delete(
-          'https://yang-zhang-project.firebaseio.com/products/${selectedProduct.id}/wishlistUsers/${_authenticatedUser.id}.json?auth=${_authenticatedUser.token}');
+          'https://neu-winter2019.firebaseio.com/products/${selectedProduct.id}/wishlistUsers/${_authenticatedUser.id}.json?auth=${_authenticatedUser.token}');
     }
     if (response.statusCode != 200 && response.statusCode != 201) {
       final Product updatedProduct = Product(
@@ -350,13 +350,13 @@ mixin UserModel on ConnectedProductsModel {
     http.Response response;
     if (mode == AuthMode.Login) {
       response = await http.post(
-        'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyB7HOe21llSha9Cbz2-bhjt98s3CJM_HVM',
+        'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyAfEnPB2WAsBXs3P0KQVeizFG3870QwM3k',
         body: json.encode(authData),
         headers: {'Content-Type': 'application/json'},
       );
     } else {
       response = await http.post(
-        'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyB7HOe21llSha9Cbz2-bhjt98s3CJM_HVM',
+        'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyAfEnPB2WAsBXs3P0KQVeizFG3870QwM3k',
         body: json.encode(authData),
         headers: {'Content-Type': 'application/json'},
       );
