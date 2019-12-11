@@ -54,3 +54,4 @@ geckodriver.log
 /MobileAppDev/project/gen/
 /MobileAppDev/project/ios/
 /MobileAppDev/project/pubspec.yaml
+/MobileAppDev/project/lib/scoped-models/
