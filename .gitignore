@@ -48,3 +48,9 @@ config.rst
 package-lock.json
 geckodriver.log
 *.iml
+/MobileAppDev/project/android/
+/MobileAppDev/project/assets/
+/MobileAppDev/project/functions/
+/MobileAppDev/project/gen/
+/MobileAppDev/project/ios/
+/MobileAppDev/project/pubspec.yaml
