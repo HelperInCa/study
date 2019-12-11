@@ -265,4 +265,4 @@
 
   > - batch_size: Size of Training Set
   > - epoch: Times that the learning algorithm will work through the entire training dataset
-
+  > - learning rate: The amount that the weights are updated during training. (0.0, 1.0) 
