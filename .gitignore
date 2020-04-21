@@ -3,6 +3,16 @@
 /data\ science/HW
 *.csv
 /private/
+*.tsv
+*.mp4
+/data\ science/transfer\ learning
+/data\ science/info7390/transfer\ learning/hymenoptera_data
+*.pptx
+data\ science/info7374/project/fruits.zip
+*.fr
+*.pkl
+*.en
+data\ science/info7374/exercise5/cifar-10-batches-py
 
 # jupyter
 MANIFEST

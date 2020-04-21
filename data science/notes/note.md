@@ -7,7 +7,7 @@
 
 # Jupyter notebook
 
-##shortcut:
+## shortcut:
 
 - `shift`+`enter`: run
 - `esc`+`f`: find and replace

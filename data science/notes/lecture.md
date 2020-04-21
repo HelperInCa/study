@@ -1,6 +1,6 @@
+# Intro to ML
 
-
-# L 2
+## L 2
 
 - avoid **logical fallacy**(the Texas sharpshooter fallacy): shoot first, then draw target
 
@@ -8,7 +8,7 @@
 
 
 
-# L 3
+## L 3
 
 - Before convert dataframe to an array, 
 
@@ -16,9 +16,9 @@
 
   b) map and convert cateogries of numbers.
 
-- seaborn: dont know how to code on a spot you want? see https://seaborn.pydata.org/examples/index. html#
+- seaborn: dont know how to code on a spot you want? see https://seaborn.pydata.org/examples/index.html
 
-# L 4
+## L 4
 
 - Bias-Variance Tradeoff
 
@@ -41,7 +41,7 @@
   
 - ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7h6z99qn3j30ip0l60uf.jpg)
 
-# L5
+## L5
 
 - code: 
 
@@ -55,7 +55,7 @@
 
 
 
-# L6
+## L6
 
 - random forests: 
   - why choose:
@@ -72,13 +72,13 @@
     - Entropy:  how much info is encoded in a decision, higher gains = better quality decision, calculate the probability distributions from frequencies
     
   - ensembling
-    bagging in random forest
+    bagging in random forests
     
     see also [ensemble learning](https://towardsdatascience.com/basic-ensemble-learning-random-forest-adaboost-gradient-boosting-step-by-step-explained-95d49d1e2725)
 
 
 
-# L7
+## L7
 
 - EDA(exploratory data analysis)
 
@@ -121,7 +121,7 @@
 
 
 
-# L8
+## L8
 
 - neural networks, shallow and deep
 
@@ -170,18 +170,18 @@
 
 
 
-# L9
+## L9
 
 [Code](https://github.com/HelperInCa/study/blob/master/data%20science/module9/DNN%20for%20Classification.ipynb)
 
-# L10
+## L10
 
 <font size="6">Linear algebra in DL</font>
 
 - 1 matrix = 1 layer
 - different features = diff dimesions
 
-# L11
+## L11
 
 <font size="6">The activations | loss functions | SGD of neural networks</font>
 
@@ -211,7 +211,7 @@
 
 
 
-# L12
+## L12
 
 <font size="6">CNN theory code</font>
 
@@ -235,7 +235,7 @@
 
 
 
-# L13
+## L13
 
 - Q&A
 
@@ -266,3 +266,38 @@
   > - batch_size: Size of Training Set
   > - epoch: Times that the learning algorithm will work through the entire training dataset
   > - learning rate: The amount that the weights are updated during training. (0.0, 1.0) 
+
+
+
+# Advanced
+
+## Transfer learning
+
+- Problem: How can we build a high performing Deep Neural Network model for Image classification with very **less** Data ?
+
+  Solution: Data augmentation and *Transfer Learning* !
+
+- Core of transfer learning: leveraging pre-trained inner layers
+
+  > [Deep Learning For Beginners Using Transfer Learning In Keras](https://towardsdatascience.com/keras-transfer-learning-for-beginners-6c9b8b7143e)
+
+  ![](https://ipic-1300911741.cos.na-siliconvalley.myqcloud.com/0cktv.png)
+
+  ![](https://ipic-1300911741.cos.na-siliconvalley.myqcloud.com/qian8.png)
+
+- 2 ways 
+
+  ![](https://ipic-1300911741.cos.na-siliconvalley.myqcloud.com/ha01b.png)
+
+- tips
+
+  - proper base model
+
+    more complex model may need more compute power, and thus more time to get the result.
+
+  - data augmentation
+
+  - Differential Learning rates
+
+  ![](https://ipic-1300911741.cos.na-siliconvalley.myqcloud.com/ilxxn.png)
+
