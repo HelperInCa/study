@@ -1,0 +1,39 @@
+00:00:42	Xinyu Liang:	Hi! 
+00:00:43	Bodong Zhou:	Hi professor
+00:01:37	Ramkumar Hariharan:	Did you have a good week?
+00:01:40	wensi:	Yes!
+00:01:47	Shuofei Chen:	Yes
+00:03:23	Ramkumar Hariharan:	Is anyone here today doing transfer learning for their project ?
+00:16:43	Ramkumar Hariharan:	Any questions ?
+00:16:49	Ramkumar Hariharan:	Or suggestions ?
+00:31:28	Ramkumar Hariharan:	Any questions so far ?
+00:31:43	Ramkumar Hariharan:	OK cool
+00:34:42	Ramkumar Hariharan:	Is the code notebook still visible ?
+00:34:44	wensi:	Yes
+00:34:50	Ramkumar Hariharan:	Thank you
+00:34:53	Ramkumar Hariharan:	Lets go again
+00:46:17	Yifei Li:	Why we need center crop the validation set instead of resizing it to 224
+00:49:42	Ramkumar Hariharan:	Any other questions?
+01:15:29	Ramkumar Hariharan:	Now is the time to take questions
+01:15:34	Ramkumar Hariharan:	And see what is on your mind ?
+01:16:10	Yifei Li:	For adaptive learning rate, shall we use Adam optimizer ?
+01:16:58	Ramkumar Hariharan:	Are you using google collar ?
+01:17:07	Ramkumar Hariharan:	colab
+01:17:38	Yifei Li:	I have a computer with CUDA using old GPU
+01:17:47	Ramkumar Hariharan:	Awesome !
+01:18:16	Ramkumar Hariharan:	Are you using transfer learning for your project ?
+01:18:32	Yifei Li:	I have used  pertained resnet34 in my last project
+01:19:00	Ramkumar Hariharan:	No class next week !
+01:19:04	Ramkumar Hariharan:	Spring break
+01:19:17	Ramkumar Hariharan:	And we will do the next class the week after that
+01:19:25	Ramkumar Hariharan:	Where we will quickly do the other transfer elarning
+01:19:47	Ramkumar Hariharan:	and then shift our attention to recommender systems
+01:20:19	Ramkumar Hariharan:	Sunrise
+01:20:21	Ramkumar Hariharan:	Surprise
+01:20:25	Ramkumar Hariharan:	Which is very cool
+01:20:30	Ramkumar Hariharan:	and is used for recommender sytems
+01:21:07	Ramkumar Hariharan:	Thank you very much everyone
+01:21:11	Ramkumar Hariharan:	For showing up !
+01:21:14	Xinyu Liang:	Thank you professor!
+01:21:22	Yifei Li:	Thank you professor.
+01:21:24	Ramkumar Hariharan:	Please feel free to send any questions
