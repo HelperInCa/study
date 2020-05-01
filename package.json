@@ -1,0 +1,31 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "Courses I have learned recently",
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.6.5"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEU-GradStudents/class-exercise-4-001441791-QingHu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NEU-GradStudents/class-exercise-4-001441791-QingHu/issues"
+  },
+  "homepage": "https://github.com/NEU-GradStudents/class-exercise-4-001441791-QingHu#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
