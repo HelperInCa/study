@@ -83,7 +83,6 @@ class CircleSingleLinkedList {
 
     /**
      * 计算出圈顺序
-     *
      * @param startNo  从第几个小孩开始报数
      * @param countNum 数几下
      * @param nums     最初有多少小孩在圈中
