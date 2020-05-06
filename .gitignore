@@ -13,7 +13,8 @@ data\ science/info7374/project/fruits.zip
 *.pkl
 *.en
 data\ science/info7374/exercise5/cifar-10-batches-py
-
+.metadata
+.recommenders
 
 # jupyter
 MANIFEST
@@ -58,7 +59,7 @@ config.rst
 /.project
 /.pydevproject
 
-package-lock.json
+package.json
 geckodriver.log
 *.iml
 /MobileAppDev/project/android/
