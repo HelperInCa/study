@@ -4,8 +4,7 @@
 # data science/
 *.csv
 *.tsv
-/data\ science/info7390/*.jpg
-/data\ science/info7374/*.jpg
+data science/info7374/module12/Data/
 *.mp4
 /data\ science/info7390/transfer\ learning/hymenoptera_data
 *.pptx
