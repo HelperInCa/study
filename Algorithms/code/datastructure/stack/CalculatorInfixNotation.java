@@ -1,6 +1,6 @@
 package stack;
 
-public class Calculator {
+public class CalculatorInfixNotation {
     public static void main(String[] args) {
         String expression = "7+2*3-1";
         // 一个栈存数, 一个栈存符号
