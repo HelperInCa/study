@@ -5,7 +5,7 @@ What I have learned recently
 
 - [Data Structures and Algorithms](https://github.com/HelperInCa/study/tree/master/Algorithms)
 
-- [Data Science](https://github.com/HelperInCa/study/tree/master/data science)
+- [Data Science](https://github.com/HelperInCa/study/tree/master/data%20science)
 
 - [Java编码规范](https://github.com/HelperInCa/study/blob/master/Java%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.pdf)
 
