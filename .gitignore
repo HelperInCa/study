@@ -4,14 +4,15 @@
 # data science/
 *.csv
 *.tsv
+/data\ science/info7390/*.jpg
+/data\ science/info7374/*.jpg
 *.mp4
 /data\ science/info7390/transfer\ learning/hymenoptera_data
 *.pptx
-data\ science/info7374/project/fruits.zip
 *.fr
 *.pkl
 *.en
-data\ science/info7374/exercise5/cifar-10-batches-py
+/data\ science/info7374/exercise5/cifar-10-batches-py
 .metadata
 .recommenders
 
