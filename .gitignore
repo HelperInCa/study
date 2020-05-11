@@ -1,11 +1,10 @@
 /fullstack
-/Database/sample
-/data\ science/HW
+/private
+
+# data science/
 *.csv
-/private/
 *.tsv
 *.mp4
-/data\ science/transfer\ learning
 /data\ science/info7390/transfer\ learning/hymenoptera_data
 *.pptx
 data\ science/info7374/project/fruits.zip
@@ -15,6 +14,7 @@ data\ science/info7374/project/fruits.zip
 data\ science/info7374/exercise5/cifar-10-batches-py
 .metadata
 .recommenders
+
 
 # jupyter
 MANIFEST
@@ -59,16 +59,19 @@ config.rst
 /.project
 /.pydevproject
 
+
+# MobileAppDev/
 package.json
 geckodriver.log
 *.iml
-/MobileAppDev/project/android/
-/MobileAppDev/project/assets/
-/MobileAppDev/project/functions/
-/MobileAppDev/project/gen/
-/MobileAppDev/project/ios/
-/MobileAppDev/project/pubspec.yaml
-/MobileAppDev/project/lib/scoped-models/
+/MobileAppDev/infoXX/project/android/
+/MobileAppDev/infoXX/project/assets/
+/MobileAppDev/infoXX/project/functions/
+/MobileAppDev/infoXX/project/gen/
+/MobileAppDev/infoXX/project/ios/
+/MobileAppDev/infoXX/project/pubspec.yaml
+/MobileAppDev/infoXX/project/lib/scoped-models/
+
 
 # Java
 # Compiled class file
@@ -94,3 +97,6 @@ geckodriver.log
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# WebDevTools
+
