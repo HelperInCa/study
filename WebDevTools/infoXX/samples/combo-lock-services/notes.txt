@@ -1,0 +1,16 @@
+1. Make a page with a 3x3 grid of "LockButton" components
+2. Make the LockButton output an html button with a number.  Number them 1-9
+3. Make LockButton output the class "lock-button"
+4. Make the LockButton component take a className prop and use it to output the class
+5. ...while still having "lock-button"
+6. Wrap all the buttons in a single Lock component
+7. Have each button console.log the number when pressed
+8. Have Lock console.log the numbers when pressed instead
+9. Have Lock display the series of number clicked until 4 are clicked (only show first 4 clicks)
+10. Have a Reset button
+11. Consider your lock "Locked" or "Unlocked"
+- start as locked
+- Display this status
+- Unlock if the right code is entered
+- show "Locked" in red and "Unlocked" in green
+

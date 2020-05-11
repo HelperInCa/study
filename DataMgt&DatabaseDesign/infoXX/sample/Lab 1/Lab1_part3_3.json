@@ -1,0 +1,14 @@
+{
+    "_id": {
+        "$oid": "5ba859fefb6fc011c006e33a"
+    },
+    "TerritoryID": "9",
+    "Name": "Australia",
+    "Salespeoples": [
+        {
+            "BusinessEntityID": "286",
+            "LastName": "Tsoflias",
+            "FirstName": "Lynn"
+        }
+    ]
+}
