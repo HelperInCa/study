@@ -4,7 +4,7 @@
 
 - avoid **logical fallacy**(the Texas sharpshooter fallacy): shoot first, then draw target
 
-  ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g6yezkutjuj30z206274i.jpg)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062835.jpg)
 
 
 
@@ -39,7 +39,7 @@
   >
   > - F1 Score: 
   
-- ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7h6z99qn3j30ip0l60uf.jpg)
+- ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062844.jpg)
 
 ## L5
 
@@ -103,15 +103,15 @@
 
 - R-squared(Coefficient of determination) 
 
-  ![{\displaystyle R^{2}\equiv 1-{SS_{\rm {res}} \over SS_{\rm {tot}}}\,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/0ab5cc13b206a34cc713e153b192f93b685fa875)
+  ![{\displaystyle R^{2}\equiv 1-{SS_{\rm {res}} \over SS_{\rm {tot}}}\,}](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062847.jpg)
   
   > - The total sum of squares (proportional to the variance of the data):
   >   
-  >     ![SS_{\text{tot}}=\sum _{i}(y_{i}-{\bar {y}})^{2},](https://wikimedia.org/api/rest_v1/media/math/render/svg/aec2d91094ee54fbf0f7912d329706ff016ec1bd)
+  >     ![SS_{\text{tot}}=\sum _{i}(y_{i}-{\bar {y}})^{2},](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062848.jpg)
   >   
   > - The sum of squares of residuals, also called the residual sum of squares:
   >
-  >     ![{\displaystyle SS_{\text{res}}=\sum _{i}(y_{i}-f_{i})^{2}=\sum _{i}e_{i}^{2}\,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/2669c9340581d55b274d3b8ea67a7deb2225510b)
+  >     ![{\displaystyle SS_{\text{res}}=\sum _{i}(y_{i}-f_{i})^{2}=\sum _{i}e_{i}^{2}\,}](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062852.jpg)
   
   - R^2 range:
     1. R^2 = 0: prediction = mean of actual data
@@ -125,23 +125,23 @@
 
 - neural networks, shallow and deep
 
-  ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8x6r33ff4j309q06nt8v.jpg)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062857.jpg)
 
 - classic ML vs. Deep neural networks(DNN)
 
   **Details:** [intro to DL](https://medium.com/@srnghn/introduction-to-deep-learning-what-do-i-need-to-know-75794ebc4a62)
 
-  ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8x82drtndj30s80n9dhc.jpg)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062904.jpg)
 
   > diff: 
   >
   > DNN transfer the space rather than dataset
 
-  ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8x91127ckj30sc0nv3zo.jpg)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062911.jpg)
 
   
 
-  - Packages/Frameworks![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8x9w1amfsj30vf0ny76q.jpg)
+  - Packages/Frameworks![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062917.jpg)
 
     > The **High bandwidth**, hiding the latency under thread parallelism and **easily programmable** registers makes **GPU** a lot **faster** than a **CPU**.
 
@@ -149,9 +149,9 @@
 
   
 
-  ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8xb1r5y9mj30tk0o4di9.jpg)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062914.jpg)
 
-![](https://tva1.sinaimg.cn/large/006y8mN6gy1g8xb8uqgdkj30u20mlmyi.jpg)
+![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062920.jpg)
 
 - Complete CNN architecture
 
@@ -191,23 +191,23 @@
 
   - Sigmoid & tanh
 
-    ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9dgxt6aqlj31a70u0ju3.jpg)
+    ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062938.jpg)
 
   - **ReLU** 
 
-    ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9dgzbhtx9j31bw0hq0uh.jpg)
+    ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062933.jpg)
 
 
 
 - [Loss function for DNN: Binary cross entropy](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
 
-  ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9dizjtxgqj316s0u0afk.jpg)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062947.jpg)
 
   
 
 - SGD(the 2nd pic in [this](https://medium.com/@RosieCampbell/demystifying-deep-neural-nets-efb726eae941))
 
-  ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g9djk8fe34j31400u0tcz.jpg)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-062952.jpg)
 
 
 
@@ -281,13 +281,13 @@
 
   > [Deep Learning For Beginners Using Transfer Learning In Keras](https://towardsdatascience.com/keras-transfer-learning-for-beginners-6c9b8b7143e)
 
-  ![](https://ipic-1300911741.cos.na-siliconvalley.myqcloud.com/0cktv.png)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063002.jpg)
 
-  ![](https://ipic-1300911741.cos.na-siliconvalley.myqcloud.com/qian8.png)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063007.jpg)
 
 - 2 ways 
 
-  ![](https://ipic-1300911741.cos.na-siliconvalley.myqcloud.com/ha01b.png)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063026.png)
 
 - tips
 
@@ -299,5 +299,5 @@
 
   - Differential Learning rates
 
-  ![](https://ipic-1300911741.cos.na-siliconvalley.myqcloud.com/ilxxn.png)
+  ![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063027.png)
 

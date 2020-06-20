@@ -33,7 +33,7 @@ We perform some common techniques and found several patterns in the dataset.
 
 ##### Firstly, we tried to observe the distribution of the dataset
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9rpcph1r5j30fr0a8dfv.jpg)
+![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063053.png)
 
 We found the unemployment rate is also not balanced, the peak is at 8%
 
@@ -41,17 +41,17 @@ Also, the type of stores are unbalanced. there are more type A store than B and 
 
 Then we explore the relations between different features and weekly sales
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9rpf3gwmgj30nn0d1t8z.jpg)
+![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063100.jpg)
 
 althought there are so many data points, we can still see that high sales are closely related to low unemployment rates.
 
 and we also noticed that lower CPIs creates more sales. And there seems to be no data in the  CPI range of [143, 181]
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9rpgmvukvj30nd0d1wep.jpg)
+![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063044.png)
 
 Finally we looked at the correlation coefficient between differen features
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9rphasdvkj30o00nm74f.jpg)
+![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063056.png)
 
 We particular focus on the correlation between weekly sales and other factors. It appears that the size of the store is very relavant to the weekly sales.
 
@@ -77,7 +77,7 @@ Drop “IsHoliday” feature from features.csv. Merge train.csv, features.csv an
 
 There are many null values for the field MarkDown(Because markdowns are special events that are not held everyday, we replace these values with 0)
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9rp8n0nenj31g00cegmv.jpg)
+![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063130.jpg)
 
 ##### Train-valid split:
 
@@ -113,11 +113,11 @@ Since this is a regression problem, the most common metrics for evaluating perfo
 
 In statistics, mean absolute error (MAE) is a measure of difference between two continuous variables. Assume X and Y are variables of paired observations that express the same phenomenon. Examples of Y versus X include comparisons of predicted versus observed, subsequent time versus initial time, and one technique of measurement versus an alternative technique of measurement. Consider a scatter plot of n points, where point ![](https://latex.codecogs.com/gif.latex?i) has coordinates ![](https://latex.codecogs.com/gif.latex?(x_i,&space;y_i)). Mean Absolute Error (MAE) is the average vertical distance between each point and the identity line. MAE is also the average horizontal distance between each point and the identity line. The mean absolute error is given by:
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9rq9xaze6j30fe058a9x.jpg)
+![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063134.jpg)
 
 
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9rpjufz4sj30no0df0so.jpg)
+![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063150.jpg)
 
 
 
@@ -130,7 +130,7 @@ n statistics, the mean squared error (MSE) or mean squared deviation (MSD) of an
 
 
 
-![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9rpkshndyj30nq0dpwef.jpg)
+![](https://ipic-1300911741.oss-cn-shanghai.aliyuncs.com/2020-05-14-063151.jpg)
 
 The mse of the three models are shown as above.
 
