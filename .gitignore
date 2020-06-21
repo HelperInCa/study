@@ -59,7 +59,8 @@ config.rst
 /.pydevproject
 
 
-# MobileAppDev/
+# MobileAppDev
+/MobileAppDev
 package.json
 geckodriver.log
 *.iml
@@ -98,4 +99,4 @@ geckodriver.log
 hs_err_pid*
 
 # WebDevTools
-
+/WebDevTools
