@@ -19,9 +19,5 @@ What I have learned recently
 
 - [Database](https://github.com/HelperInCa/study/tree/master/DataMgt%26DatabaseDesign)
 
-- [Mobile Development](https://github.com/HelperInCa/study/tree/master/MobileAppDev)
-
-- [Web Development](https://github.com/HelperInCa/study/tree/master/WebDevTools)
-
   
 
