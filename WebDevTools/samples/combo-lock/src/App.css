@@ -1,0 +1,17 @@
+.combo-lock { 
+  display: flex;
+  flex-direction: column;
+}
+
+.row { 
+  display: flex;
+  flex-direction: row;
+}
+
+.status { 
+  color: red;
+}
+
+.status.unlocked { 
+  color: green;
+}
