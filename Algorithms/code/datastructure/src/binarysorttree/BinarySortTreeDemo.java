@@ -184,7 +184,7 @@ class BinarySortTree {
      * 2. 删除这个最小结点
      *
      * @param node 当作根节点
-     * @return 以node为根节点的二叉排序树的最小结点值
+     * @return 以node为根节点的二叉排序树的最小结￿￿点值
      */
     public int delRightTreeMin(Node node) {
         Node res = node;
