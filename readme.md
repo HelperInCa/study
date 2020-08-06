@@ -7,7 +7,7 @@ What I have learned recently
 
 - [Data Science](https://github.com/HelperInCa/study/tree/master/data%20science)
 
-- [Java编码规范](https://github.com/HelperInCa/study/blob/master/Java%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.pdf)
+- [Java编码规范](https://github.com/HelperInCa/study/blob/master/Java%20%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.pdf)
 
 - [图解HTTP](https://github.com/HelperInCa/study/blob/master/%E5%9B%BE%E8%A7%A3HTTP.pdf)
 
