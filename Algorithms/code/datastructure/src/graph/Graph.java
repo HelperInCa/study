@@ -6,7 +6,7 @@ import java.util.LinkedList;
 
 /**
  * @Description Graph
- * @Author Qing Hu
+ * @Author 
  * @Date 8/23/20 15:18
  * @Version 1.0
  */
