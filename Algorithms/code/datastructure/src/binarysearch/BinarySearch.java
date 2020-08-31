@@ -41,7 +41,7 @@ public class BinarySearch {
     /**
      *二分查找递归实现
      * @param arr 待查找的数组, arr 是升序
-     * @param target 待查找的数 
+     * @param target 待查找的数
      * @param left 左下标(初始是 0)
      * @param right 右下标(初始是 array.length() - 1)
      * @return 返回对应下标，-1 表示没有找到
