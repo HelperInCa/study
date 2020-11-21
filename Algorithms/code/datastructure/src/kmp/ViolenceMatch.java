@@ -10,6 +10,7 @@ public class ViolenceMatch {
         String str2 = "尚硅谷你尚硅你";
         int index = violenceMatch(str1, str2);
         System.out.println("index=" + index);
+        System.out.println("1");
     }
 
     /**
